@@ -1,0 +1,43 @@
+.grandparent{
+    perspective: 200px;
+}
+.parent{
+    width: 324px;
+    height: 204px;
+    position:relative;
+    transition: transform 1s linear;
+    transform-style: preserve-3d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.parent:hover{
+    transform : rotateY(180deg);
+
+}
+
+
+.front{
+    width: 324px;
+    height: 204px;
+    border-radius: 12px;
+    color: gray;
+    background-color: aliceblue;
+    position: absolute;
+    box-shadow: 0px 0px 8px grey;
+    font-family: "Pacifico",cursive;
+    backface-visibility: hidden;
+}
+.back{
+    width: 324px;
+    height: 204px;
+    border-radius: 12px;
+    color: gray;
+    background-color: rgb(29, 110, 182);
+    position:absolute;
+    box-shadow: 0px 0px 8px grey;
+    font-family: "Pacifico",cursive;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+}
+

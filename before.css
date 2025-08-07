@@ -1,0 +1,32 @@
+body{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    height: 100svh;
+    width: 100px;
+    font-size: 20px;
+}
+.demo{
+        position: relative;
+    height: 100px;
+    width: 100px;
+     border: 2px solid black;
+    background-color: rgb(0,107,193);
+    border: 2px solid black;
+
+}
+.demo::before{
+    position: absolute;
+    content: "";
+    height: 100px;
+    width: 100px;
+    background-color: rgb(0,107,193);
+   
+    transform: translateX(-150px);
+    z-index: -1;
+    transition: transform 5s linear;
+}
+.demo::hover::before{
+    transform: translateX(0px) skew(45deg);
+}
+

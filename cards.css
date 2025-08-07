@@ -1,0 +1,32 @@
+body{
+    width: 100%;
+
+}
+.card{
+    height:400px ;
+    width: 320px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+}
+img-selection{
+    height: 300px;
+    width: 80%;
+    border: 1px solid red;
+}
+img-selection img{
+    height: 100%;
+    width: 100%;
+
+}
+info-selection{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+align-items: center;
+    justify-content:space-evenly ;
+    font-size: 30px;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html++
+>
+<html>
+  <head>
+    <title>
+      css selctors demo
+    </title>
+    <style>
+      p{
+        font-family:Arial,sans-serif;
+        line-height:1.6;
+      }
+      #header{
+        background-color: navy;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+      .card{
+        border: 1px solid lightgray;
+        border-radius: 5px;
+        padding: 15px;
+        margin: 10px;
+        background-color: #f4f4f4;
+      }
+      h1,h2,h3{
+        font-family: 'Georgia','serif';
+      }
+      *{
+        box-sizing: border-box;
+      }
+      .container p{
+        color: #333;
+      }
+      .container >p{
+        font-weight: bold;
+      }
+      h2+p{
+        color: blue;
+      }
+      h2 ~ p{
+        margin-left: 20px;
+      }
+      .card:hover{
+        background-color: lightgray;
+        transition: background-color 0.3s;
+      }
+      li:nth-child(odd){
+        background-color: #f8f8f8;
+      }
+      p:first-child{
+        text-transform: uppercase;
+      }
+      .card::before{
+        content: "Card: ";
+        font-weight: bold;
+        color: red;
+      }
+      p::first-letter{
+        font-size: 1.2em;
+        color: darkgreen;
+      }
+      [type="text"]{
+        border: 2px solid green;
+      }
+      [href^="https"]{
+        color: green;
+        text-decoration: none;
+      }
+      [class*="hightlight"]{
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="header">CSS SELECTORS DEMO</h1>
+
+    <div class="container">
+      <p>this is a paragraph directly inside the container</p>
+      <div class="card">
+        <h2>card title</h2>
+        <p class="highlight">this paragraph foloows h2</p>
+        <p>another paragraph in the card</p>
+      </div>
+    <div class="card">
+      <p>this is paragaph inside the card</p>
+    </div>
+    </div>
+    <ul>
+
+    <li>item1(odd)</li>
+     <li>item2(even)</li>
+      <li>item3(odd)</li>
+       <li>item4(even)</li>
+    </ul>
+    <form>
+      <input type="text" placeholder="enter text">
+      <input type="submit" value="submit">
+
+
+    </form>
+    <p>
+      <a href="https:://example.com">secure link</a>
+      <a href="https://example.com">non-secure link</a>
+    </p>
+  </body>
+</html>

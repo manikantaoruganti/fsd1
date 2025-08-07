@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Flipkart Style Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f4f4;
+    }
+
+    header {
+      background-color: #2874f0;
+      color: white;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    header input {
+      width: 50%;
+      padding: 8px;
+      border-radius: 3px;
+      border: none;
+    }
+
+    .container {
+      display: flex;
+      padding: 20px;
+      gap: 20px;
+    }
+
+    .column {
+      background: white;
+      border-radius: 5px;
+      padding: 15px;
+      flex: 1;
+    }
+
+    .column h2 {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .product {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+    }
+
+    .product img {
+      height: 120px;
+      object-fit: contain;
+      margin-bottom: 10px;
+    }
+
+    .product p {
+      margin: 2px 0;
+      text-align: center;
+    }
+
+    .discount {
+      color: green;
+      font-weight: bold;
+    }
+
+    .ad-banner {
+      background: #f2e9e4;
+      text-align: center;
+      padding: 30px;
+      border-radius: 5px;
+    }
+
+    .ad-banner img {
+      width: 80%;
+      max-width: 300px;
+    }
+
+    .ad-banner h3 {
+      margin-bottom: 5px;
+    }
+
+    .ad-banner button {
+      padding: 10px 20px;
+      background-color: #2e7d32;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+
+  </style>
+</head>
+<body>
+
+<header>
+  <div><strong>Flipkart</strong> Explore Plus</div>
+  <input type="text" placeholder="Search for Products, Brands and More">
+  <div>
+    <button>Login</button>
+    <button>Cart</button>
+    <button>Become a Seller</button>
+  </div>
+</header>
+
+<div class="container">
+  <div class="column">
+    <h2>Hair & Skin Care for Monsoon</h2>
+    <div class="product"><img src="https://rukminim2.flixcart.com/image/416/416/xif0q/combo-kit/u/a/w/instant-glow-ultimate-ubtan-skin-care-kit-ubtan-face-body-scrub-original-imaguzduha7txfpg.jpeg?q=70&crop=false" alt="Face Wash"><p>Face Wash</p><p class="discount">Min. 50% Off</p></div>
+    <div class="product"><img src="hairserum.jpg" alt="Hair Serum"><p>Hair Serum</p><p class="discount">Min. 50% Off</p></div>
+    <div class="product"><img src="hairclaw.jpg" alt="Hair Claw"><p>Hair Claw</p><p class="discount">Top Sellers</p></div>
+    <div class="product"><img src="bathsoap.jpg" alt="Bath Soap"><p>Bath Soap</p><p class="discount">Min. 50% Off</p></div>
+  </div>
+
+  <div class="column">
+    <h2>Fashion's Top Deals</h2>
+    <div class="product"><img src="https://rukminim2.flixcart.com/image/612/612/xif0q/slipper-flip-flop/f/f/q/8-na-rocket-06-blkblu-punch-brntan-lakhani-vardaan-brown-original-imagzdy6ngrgfs3v.jpeg?q=70" alt="Slippers"><p>Men’s Slippers & Flip ...</p><p class="discount">Min. 70% Off</p></div>
+    <div class="product"><img src="tshirts.jpg" alt="T-shirts"><p>Men’s T-shirts</p><p class="discount">Min. 50% Off</p></div>
+    <div class="product"><img src="shirt.jpg" alt="Shirts"><p>Casual Shirts</p><p class="discount">Special offer</p></div>
+    <div class="product"><img src="saree.jpg" alt="Sarees"><p>Women’s Sarees</p><p class="discount">Special offer</p></div>
+  </div>
+
+  <div class="column ad-banner">
+    <h3>Shop your fashion Needs</h3>
+    <p>with Latest & Trendy Choices</p>
+    <button>Shop Now</button>
+    <img src="https://www.advertgallery.com/wp-content/uploads/2018/10/flipkart-big-billion-days-upto-90-off-on-fashion-ad-times-of-india-mumbai-10-10-2018.png" alt="Fashion Banner">
+  </div>
+</div>
+
+</body>
+</html>

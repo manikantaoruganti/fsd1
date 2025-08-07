@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Modal & Recommendations</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Trigger Button -->
+  <button class="open-modal-btn">Open Modal</button>
+
+  <!-- Modal -->
+  <div class="modal-overlay">
+    <div class="modal">
+      <span class="close-modal">&times;</span>
+      <h2>Welcome to the Recommendations</h2>
+      <p>This modal is centered and disables background scroll.</p>
+    </div>
+  </div>
+
+  <!-- Recommendations Section -->
+  <section class="recommendations">
+    <h2>Recommendations</h2>
+    <div class="carousel">
+      <input type="radio" name="slider" id="slide1" checked>
+      <input type="radio" name="slider" id="slide2">
+      <input type="radio" name="slider" id="slide3">
+
+      <div class="slides">
+        <div class="slide" id="s1">
+          <p>"Great work! Highly recommend."</p>
+          <strong>– John Doe</strong>
+        </div>
+        <div class="slide" id="s2">
+          <p>"Amazing UI and fast delivery."</p>
+          <strong>– Jane Smith</strong>
+        </div>
+        <div class="slide" id="s3">
+          <p>"Professional and responsive!"</p>
+          <strong>– Alex Johnson</strong>
+        </div>
+      </div>
+
+      <div class="dots">
+        <label for="slide1"></label>
+        <label for="slide2"></label>
+        <label for="slide3"></label>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
