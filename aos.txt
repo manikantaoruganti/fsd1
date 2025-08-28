@@ -6,7 +6,7 @@ Objective
 OptiVaultAI aims to bridge the gap between tokenized real-world assets (RWAs) and high-yield decentralized finance (DeFi) strategies.
 By combining Andromeda’s ADO-based composability with AI-driven decision-making, OptiVaultAI enables enterprises and individuals to tokenize physical assets (real estate, gold, IP rights), fractionalize them, and automatically deploy them into optimal earning protocols across the Cosmos ecosystem.
 
-Implementation
+Implementation b
 1. RWA Tokenization Engine
 
 Uses Andromeda’s CW721, CW20, and Splitter ADOs to mint and fractionalize digital representations of RWAs.
