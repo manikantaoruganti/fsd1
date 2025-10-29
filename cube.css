@@ -4,7 +4,7 @@ body{
     align-items: center;
     background-color: black;
     height: 100svh;
-    perspective: 1000px;
+    perspective: 1000px; 
 }
 .cube{
     width:200px;
