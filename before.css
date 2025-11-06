@@ -21,7 +21,7 @@ body{
     height: 100px;
     width: 100px;
     background-color: rgb(0,107,193);
-   
+    
     transform: translateX(-150px);
     z-index: -1;
     transition: transform 5s linear;
