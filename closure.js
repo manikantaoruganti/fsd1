@@ -1,5 +1,3 @@
-// Demonstrates JavaScript Closure
-
 function counter() {
   let count = 0; // private variable
 
